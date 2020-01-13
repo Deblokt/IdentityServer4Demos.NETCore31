@@ -1,0 +1,27 @@
+﻿@page
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@model IdentityServer.Areas.Identity.Pages.Account.LoginFido2MfaModel
+@{
+    ViewData["Title"] = "Login with Fido2 MFA";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+<p>Your login is protected with a Fido2 authenticator. Please plug in your authenticator device now.</p>
+<div class="notification is-danger" style="display:none">
+    Please note: Your browser does not seem to support WebAuthn yet. <a href="https://caniuse.com/#search=webauthn" target="_blank">Supported browsers</a>
+</div>
+<form action="/LoginFido2Mfa" method="post" id="signin">
+    <div class="field">
+        <div class="control">
+            <button class="btn btn-primary">2FA with Fido2 device</button>
+        </div>
+    </div>
+</form>
+
+<script src="~/js/helpers.js"></script>
+<script src="~/js/instant.js"></script>
+<script src="~/js/mfa.login.js"></script>
