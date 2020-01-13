@@ -1,0 +1,1874 @@
+2019-12-30 12:04:35.879 +01:00 [INF] Starting host...
+2019-12-30 12:04:36.746 +01:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2019-12-30 12:04:36.757 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-12-30 12:04:36.760 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-12-30 12:04:36.760 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-12-30 12:04:36.761 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-12-30 12:04:36.761 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-12-30 12:04:36.761 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-12-30 12:04:36.761 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-12-30 12:04:36.918 +01:00 [DBG] Login Url: /Account/Login
+2019-12-30 12:04:36.919 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-12-30 12:04:36.919 +01:00 [DBG] Logout Url: /Account/Logout
+2019-12-30 12:04:36.919 +01:00 [DBG] ConsentUrl Url: /consent
+2019-12-30 12:04:36.919 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-12-30 12:04:36.920 +01:00 [DBG] Error Url: /home/error
+2019-12-30 12:04:36.920 +01:00 [DBG] Error Id Parameter: errorId
+2019-12-30 12:10:00.654 +01:00 [INF] Starting host...
+2019-12-30 12:10:01.437 +01:00 [INF] Starting IdentityServer4 version 3.0.1.0
+2019-12-30 12:10:01.449 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-12-30 12:10:01.451 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-12-30 12:10:01.451 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-12-30 12:10:01.451 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-12-30 12:10:01.451 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-12-30 12:10:01.451 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-12-30 12:10:01.451 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-12-30 12:10:01.594 +01:00 [DBG] Login Url: /Account/Login
+2019-12-30 12:10:01.595 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-12-30 12:10:01.595 +01:00 [DBG] Logout Url: /Account/Logout
+2019-12-30 12:10:01.595 +01:00 [DBG] ConsentUrl Url: /consent
+2019-12-30 12:10:01.595 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-12-30 12:10:01.595 +01:00 [DBG] Error Url: /home/error
+2019-12-30 12:10:01.595 +01:00 [DBG] Error Id Parameter: errorId
+2019-12-30 12:10:03.132 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-12-30 12:10:03.133 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-12-30 12:10:03.133 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-12-30 12:10:03.134 +01:00 [DBG] Start discovery request
+2019-12-30 12:10:57.422 +01:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-12-30 12:11:26.237 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-12-30 12:11:26.267 +01:00 [DBG] Augmenting SignInContext
+2019-12-30 12:11:26.268 +01:00 [DBG] Adding idp claim with value: local
+2019-12-30 12:11:26.268 +01:00 [DBG] Adding amr claim with value: pwd
+2019-12-30 12:11:26.273 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-12-30 12:13:04.217 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-12-30 12:13:04.229 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-12-30 14:47:26.458 +01:00 [INF] Starting host...
+2019-12-30 14:47:27.670 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2019-12-30 14:47:27.854 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-12-30 14:47:27.854 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-12-30 14:47:27.854 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-12-30 14:47:27.854 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-12-30 14:47:27.854 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-12-30 14:47:27.855 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-12-30 14:47:28.009 +01:00 [DBG] Login Url: /Account/Login
+2019-12-30 14:47:28.010 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-12-30 14:47:28.010 +01:00 [DBG] Logout Url: /Account/Logout
+2019-12-30 14:47:28.010 +01:00 [DBG] ConsentUrl Url: /consent
+2019-12-30 14:47:28.010 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-12-30 14:47:28.010 +01:00 [DBG] Error Url: /home/error
+2019-12-30 14:47:28.010 +01:00 [DBG] Error Id Parameter: errorId
+2019-12-30 14:47:30.506 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-12-30 14:47:30.508 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-12-30 14:47:30.508 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-12-30 14:47:30.509 +01:00 [DBG] Start discovery request
+2019-12-30 14:47:31.608 +01:00 [DBG] Found [] as all scopes in database
+2019-12-31 15:20:29.448 +01:00 [INF] Starting host...
+2019-12-31 15:20:31.049 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2019-12-31 15:20:31.229 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-12-31 15:20:31.229 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-12-31 15:20:31.229 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-12-31 15:20:31.229 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-12-31 15:20:31.229 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-12-31 15:20:31.229 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-12-31 15:20:31.461 +01:00 [DBG] Login Url: /Account/Login
+2019-12-31 15:20:31.462 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-12-31 15:20:31.462 +01:00 [DBG] Logout Url: /Account/Logout
+2019-12-31 15:20:31.462 +01:00 [DBG] ConsentUrl Url: /consent
+2019-12-31 15:20:31.462 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-12-31 15:20:31.462 +01:00 [DBG] Error Url: /home/error
+2019-12-31 15:20:31.462 +01:00 [DBG] Error Id Parameter: errorId
+2019-12-31 15:20:46.456 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2019-12-31 15:20:49.976 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-12-31 15:20:51.190 +01:00 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000004-0003-f900-b63f-84710c7967bb","TimeStamp":"2019-12-31T14:20:51.0000000Z","ProcessId":17552,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 10:16:50.135 +01:00 [INF] Starting host...
+2020-01-08 10:16:52.727 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 10:16:52.937 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 10:16:52.937 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 10:16:52.937 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 10:16:52.937 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 10:16:52.937 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 10:16:52.937 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 10:16:53.213 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 10:16:53.214 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 10:16:53.214 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 10:16:53.214 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 10:16:53.214 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 10:16:53.215 +01:00 [DBG] Error Url: /home/error
+2020-01-08 10:16:53.215 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 10:19:33.268 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 10:19:38.245 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 10:19:39.527 +01:00 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000005-0004-f500-b63f-84710c7967bb","TimeStamp":"2020-01-08T09:19:39.0000000Z","ProcessId":7860,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 11:02:48.895 +01:00 [INF] Starting host...
+2020-01-08 11:02:49.878 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 11:02:49.975 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 11:02:49.975 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 11:02:49.975 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 11:02:49.976 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 11:02:49.976 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 11:02:49.976 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 11:02:50.133 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 11:02:50.134 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 11:02:50.134 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 11:02:50.134 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 11:02:50.134 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 11:02:50.134 +01:00 [DBG] Error Url: /home/error
+2020-01-08 11:02:50.134 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 11:02:52.597 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 11:02:57.218 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:02:58.320 +01:00 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"8000000f-0005-fc00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:02:58.0000000Z","ProcessId":12280,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 11:16:55.972 +01:00 [INF] Starting host...
+2020-01-08 11:16:56.941 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 11:16:57.041 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 11:16:57.041 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 11:16:57.041 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 11:16:57.041 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 11:16:57.041 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 11:16:57.041 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 11:16:57.200 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 11:16:57.201 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 11:16:57.201 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 11:16:57.201 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 11:16:57.201 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 11:16:57.201 +01:00 [DBG] Error Url: /home/error
+2020-01-08 11:16:57.201 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 11:17:06.855 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 11:17:11.511 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:17:12.585 +01:00 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000040-0000-fe00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:17:12.0000000Z","ProcessId":6772,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 11:17:29.834 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:17:29.876 +01:00 [INF] {"Username":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000005-0001-f800-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:17:29.0000000Z","ProcessId":6772,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 11:17:51.011 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:17:51.033 +01:00 [INF] {"Username":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000041-0002-fd00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:17:51.0000000Z","ProcessId":6772,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 11:18:05.643 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:23:36.201 +01:00 [INF] Starting host...
+2020-01-08 11:23:37.164 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 11:23:37.262 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 11:23:37.263 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 11:23:37.263 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 11:23:37.263 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 11:23:37.263 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 11:23:37.263 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 11:23:37.417 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 11:23:37.419 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 11:23:37.419 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 11:23:37.419 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 11:23:37.419 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 11:23:37.419 +01:00 [DBG] Error Url: /home/error
+2020-01-08 11:23:37.419 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 11:23:39.351 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 11:23:43.815 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:23:44.998 +01:00 [DBG] Augmenting SignInContext
+2020-01-08 11:23:44.999 +01:00 [DBG] Adding idp claim with value: local
+2020-01-08 11:23:44.999 +01:00 [DBG] Adding auth_time claim with value: 1578479024
+2020-01-08 11:23:45.004 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-08 11:23:45.017 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000004-0002-f900-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:23:45.0000000Z","ProcessId":14260,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-08 11:23:45.099 +01:00 [ERR] Failed executing DbCommand (6ms) [Parameters=[@__subjectId_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[CreationTime], [p].[Data], [p].[Expiration], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[SubjectId] = @__subjectId_0
+2020-01-08 11:23:45.135 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'IdentityServer4.EntityFramework.DbContexts.PersistedGrantDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'PersistedGrants'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0b8f498f-0ef3-4ef5-888f-c0e41b6c2d7f
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'PersistedGrants'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0b8f498f-0ef3-4ef5-888f-c0e41b6c2d7f
+Error Number:208,State:1,Class:16
+2020-01-08 11:23:45.271 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'PersistedGrants'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at IdentityServer4.EntityFramework.Stores.PersistedGrantStore.GetAllAsync(String subjectId)
+   at IdentityServer4.Services.DefaultPersistedGrantService.GetAllGrantsAsync(String subjectId)
+   at IdentityServer4.Services.DefaultIdentityServerInteractionService.GetAllUserConsentsAsync()
+   at IdentityServer.GrantsController.BuildViewModelAsync() in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\04. PART-3 IdentityServer4 ASP.NET Core Identity\src\IdentityServer\Quickstart\Grants\GrantsController.cs:line 64
+   at IdentityServer.GrantsController.Index() in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\04. PART-3 IdentityServer4 ASP.NET Core Identity\src\IdentityServer\Quickstart\Grants\GrantsController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:0b8f498f-0ef3-4ef5-888f-c0e41b6c2d7f
+Error Number:208,State:1,Class:16
+2020-01-08 11:27:02.366 +01:00 [INF] Starting host...
+2020-01-08 11:27:03.308 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 11:27:03.409 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 11:27:03.409 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 11:27:03.409 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 11:27:03.410 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 11:27:03.410 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 11:27:03.410 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 11:27:03.568 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 11:27:03.569 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 11:27:03.569 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 11:27:03.569 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 11:27:03.569 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 11:27:03.569 +01:00 [DBG] Error Url: /home/error
+2020-01-08 11:27:03.569 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 11:27:05.127 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 11:27:08.869 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:27:10.052 +01:00 [DBG] Augmenting SignInContext
+2020-01-08 11:27:10.053 +01:00 [DBG] Adding idp claim with value: local
+2020-01-08 11:27:10.053 +01:00 [DBG] Adding auth_time claim with value: 1578479230
+2020-01-08 11:27:10.059 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-08 11:27:10.071 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"8000000b-0004-fa00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:27:10.0000000Z","ProcessId":4304,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-08 11:27:10.142 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-08 11:27:15.780 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:27:15.800 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-01-08 11:27:15.800 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-01-08 11:27:15.801 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-01-08 11:27:15.802 +01:00 [INF] {"SubjectId":"1","DisplayName":"Alice Smith","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"8000004e-0005-ff00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:27:15.0000000Z","ProcessId":4304,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-01-08 11:27:18.809 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 11:27:22.217 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:27:22.241 +01:00 [DBG] Augmenting SignInContext
+2020-01-08 11:27:22.241 +01:00 [DBG] Adding idp claim with value: local
+2020-01-08 11:27:22.241 +01:00 [DBG] Adding auth_time claim with value: 1578479242
+2020-01-08 11:27:22.242 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-08 11:27:22.243 +01:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"2","DisplayName":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000017-0001-f700-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:27:22.0000000Z","ProcessId":4304,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-08 11:27:22.248 +01:00 [DBG] 0 persisted grants found for 2
+2020-01-08 11:27:25.698 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:27:25.702 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-01-08 11:27:25.702 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-01-08 11:27:25.703 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-01-08 11:27:25.704 +01:00 [INF] {"SubjectId":"2","DisplayName":"Bob Smith","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"80000014-0004-fa00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:27:25.0000000Z","ProcessId":4304,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-01-08 11:55:17.177 +01:00 [INF] Starting host...
+2020-01-08 11:55:18.737 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 11:55:18.912 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 11:55:18.912 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 11:55:18.912 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 11:55:18.912 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 11:55:18.912 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 11:55:18.912 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 11:55:19.067 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 11:55:19.068 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 11:55:19.068 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 11:55:19.068 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 11:55:19.068 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 11:55:19.068 +01:00 [DBG] Error Url: /home/error
+2020-01-08 11:55:19.068 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 11:55:20.880 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 11:55:29.469 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:55:30.671 +01:00 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000022-0003-fe00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:55:30.0000000Z","ProcessId":18100,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-01-08 11:56:12.027 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 11:56:12.163 +01:00 [DBG] Augmenting SignInContext
+2020-01-08 11:56:12.164 +01:00 [DBG] Adding idp claim with value: local
+2020-01-08 11:56:12.164 +01:00 [DBG] Adding auth_time claim with value: 1578480972
+2020-01-08 11:56:12.170 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-08 11:56:12.172 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000014-0005-fb00-b63f-84710c7967bb","TimeStamp":"2020-01-08T10:56:12.0000000Z","ProcessId":18100,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-08 11:56:12.210 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-08 12:05:37.148 +01:00 [INF] Starting host...
+2020-01-08 12:05:38.279 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 12:05:38.377 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 12:05:38.378 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 12:05:38.378 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 12:05:38.378 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 12:05:38.378 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 12:05:38.378 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 12:05:38.536 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 12:05:38.537 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 12:05:38.537 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 12:05:38.537 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 12:05:38.537 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 12:05:38.537 +01:00 [DBG] Error Url: /home/error
+2020-01-08 12:05:38.537 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 12:05:40.193 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 12:05:49.525 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-08 12:05:50.694 +01:00 [DBG] Augmenting SignInContext
+2020-01-08 12:05:50.695 +01:00 [DBG] Adding idp claim with value: local
+2020-01-08 12:05:50.695 +01:00 [DBG] Adding auth_time claim with value: 1578481550
+2020-01-08 12:05:50.701 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-08 12:05:50.710 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000033-0003-ff00-b63f-84710c7967bb","TimeStamp":"2020-01-08T11:05:50.0000000Z","ProcessId":9332,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-08 12:05:50.779 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-08 12:16:45.555 +01:00 [INF] Starting host...
+2020-01-08 12:16:47.252 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 12:16:47.431 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 12:16:47.431 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 12:16:47.431 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 12:16:47.431 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 12:16:47.431 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 12:16:47.431 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 12:16:47.758 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 12:16:47.759 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 12:16:47.759 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 12:16:47.759 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 12:16:47.759 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 12:16:47.760 +01:00 [DBG] Error Url: /home/error
+2020-01-08 12:16:47.760 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 12:16:50.056 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 12:16:52.267 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:08:37.974 +01:00 [INF] Starting host...
+2020-01-08 14:08:38.840 +01:00 [FTL] Host terminated unexpectedly.
+System.ArgumentException: Your Okta domain should not contain -admin. Current value: https://dev-xxxxxx-admin.oktapreview.com. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain (Parameter 'OktaDomain')
+   at Okta.AspNet.Abstractions.OktaWebOptionsValidator`1.Validate(OktaWebOptions options)
+   at Okta.AspNetCore.OktaAuthenticationOptionsExtensions.AddOktaMvc(AuthenticationBuilder builder, OktaMvcOptions options)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Startup.cs:line 59
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Program.cs:line 38
+2020-01-08 14:09:05.318 +01:00 [INF] Starting host...
+2020-01-08 14:09:06.078 +01:00 [FTL] Host terminated unexpectedly.
+System.ArgumentException: Your Okta domain should not contain -admin. Current value: https://dev-xxxxxx-admin.oktapreview.com. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain (Parameter 'OktaDomain')
+   at Okta.AspNet.Abstractions.OktaWebOptionsValidator`1.Validate(OktaWebOptions options)
+   at Okta.AspNetCore.OktaAuthenticationOptionsExtensions.AddOktaMvc(AuthenticationBuilder builder, OktaMvcOptions options)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Startup.cs:line 59
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Program.cs:line 38
+2020-01-08 14:12:24.615 +01:00 [INF] Starting host...
+2020-01-08 14:12:25.420 +01:00 [FTL] Host terminated unexpectedly.
+System.ArgumentException: Your Okta domain should not contain -admin. Current value: https://dev-xxxxxx-admin.oktapreview.com. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain (Parameter 'OktaDomain')
+   at Okta.AspNet.Abstractions.OktaWebOptionsValidator`1.Validate(OktaWebOptions options)
+   at Okta.AspNetCore.OktaAuthenticationOptionsExtensions.AddOktaMvc(AuthenticationBuilder builder, OktaMvcOptions options)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Startup.cs:line 59
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Program.cs:line 38
+2020-01-08 14:12:41.472 +01:00 [INF] Starting host...
+2020-01-08 14:13:28.266 +01:00 [INF] Starting host...
+2020-01-08 14:13:29.039 +01:00 [FTL] Host terminated unexpectedly.
+System.ArgumentNullException: Your client secret is missing. You can copy it from the Okta Developer Console in the details for the Application you created. Follow these instructions to find it: https://bit.ly/finding-okta-app-credentials (Parameter 'ClientSecret')
+   at Okta.AspNetCore.OktaMvcOptionsValidator.ValidateInternal(OktaMvcOptions options)
+   at Okta.AspNet.Abstractions.OktaWebOptionsValidator`1.Validate(OktaWebOptions options)
+   at Okta.AspNetCore.OktaAuthenticationOptionsExtensions.AddOktaMvc(AuthenticationBuilder builder, OktaMvcOptions options)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Startup.cs:line 59
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Program.cs:line 38
+2020-01-08 14:13:38.384 +01:00 [INF] Starting host...
+2020-01-08 14:15:22.966 +01:00 [INF] Starting host...
+2020-01-08 14:23:29.119 +01:00 [INF] Starting host...
+2020-01-08 14:39:09.232 +01:00 [INF] Starting host...
+2020-01-08 14:39:10.404 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:39:10.504 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:39:10.504 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:39:10.504 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:39:10.504 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:39:10.504 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:39:10.504 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:39:10.726 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:39:24.647 +01:00 [INF] Starting host...
+2020-01-08 14:39:40.967 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:39:41.064 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:39:41.064 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:39:41.064 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:39:41.064 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:39:41.064 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:39:41.064 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:39:41.277 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:48.543 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:50.692 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:51.274 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:51.595 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:51.988 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:52.338 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:52.738 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:53.915 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:54.722 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:41:55.258 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:42:11.698 +01:00 [INF] Starting host...
+2020-01-08 14:42:33.874 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:42:33.975 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:42:33.975 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:42:33.975 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:42:33.975 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:42:33.975 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:42:33.975 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:42:34.191 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:44:52.079 +01:00 [INF] Starting host...
+2020-01-08 14:45:23.250 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:45:23.352 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:45:23.352 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:45:23.352 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:45:23.352 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:45:23.352 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:45:23.352 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:45:23.578 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:50:20.799 +01:00 [INF] Starting host...
+2020-01-08 14:50:34.689 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:50:34.787 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:50:34.787 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:50:34.787 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:50:34.788 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:50:34.788 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:50:34.788 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:50:35.005 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:53:22.604 +01:00 [INF] Starting host...
+2020-01-08 14:53:32.516 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:53:32.621 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:53:32.622 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:53:32.622 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:53:32.622 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:53:32.622 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:53:32.622 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:53:32.841 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:55:03.371 +01:00 [INF] Starting host...
+2020-01-08 14:55:13.118 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:55:13.218 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:55:13.218 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:55:13.218 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:55:13.218 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:55:13.218 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:55:13.218 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:55:13.435 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 14:56:15.914 +01:00 [INF] Starting host...
+2020-01-08 14:56:22.834 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 14:56:22.937 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 14:56:22.938 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 14:56:22.938 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 14:56:22.938 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 14:56:22.938 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 14:56:22.938 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 14:56:23.138 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:18:44.443 +01:00 [INF] Starting host...
+2020-01-08 15:18:53.542 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:18:53.641 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:18:53.641 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:18:53.641 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:18:53.641 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:18:53.641 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:18:53.641 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:18:53.842 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:18:53.843 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:18:53.843 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:18:53.843 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:18:53.843 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:18:53.843 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:18:53.843 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:40:24.417 +01:00 [INF] Starting host...
+2020-01-08 15:40:36.169 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:40:36.268 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:40:36.268 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:40:36.268 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:40:36.268 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:40:36.268 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:40:36.268 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:40:36.462 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Extensions.Options.OptionsValidationException: The 'Instance' option must be provided.
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AzureAD.UI.AzureADOpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:44:29.856 +01:00 [INF] Starting host...
+2020-01-08 15:44:38.355 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:44:38.456 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:44:38.456 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:44:38.456 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:44:38.456 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:44:38.456 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:44:38.456 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:44:38.632 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri.CreateUri(Uri baseUri, String relativeUri, Boolean dontEscape)
+   at System.Uri..ctor(Uri baseUri, String relativeUri)
+   at Microsoft.AspNetCore.Authentication.AzureADB2C.UI.AzureADB2COpenIdConnectOptionsConfiguration.BuildAuthority(AzureADB2COptions AzureADB2COptions)
+   at Microsoft.AspNetCore.Authentication.AzureADB2C.UI.AzureADB2COpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:46:40.129 +01:00 [INF] Starting host...
+2020-01-08 15:46:48.952 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:46:49.052 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:46:49.052 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:46:49.052 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:46:49.052 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:46:49.052 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:46:49.052 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:46:49.248 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.Uri..ctor(String uriString)
+   at Microsoft.AspNetCore.Authentication.AzureADB2C.UI.AzureADB2COpenIdConnectOptionsConfiguration.BuildAuthority(AzureADB2COptions AzureADB2COptions)
+   at Microsoft.AspNetCore.Authentication.AzureADB2C.UI.AzureADB2COpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:48:16.175 +01:00 [INF] Starting host...
+2020-01-08 15:48:25.861 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:48:25.963 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:48:25.963 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:48:25.963 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:48:25.963 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:48:25.963 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:48:25.963 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:48:26.162 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.Uri..ctor(String uriString)
+   at Microsoft.AspNetCore.Authentication.AzureADB2C.UI.AzureADB2COpenIdConnectOptionsConfiguration.BuildAuthority(AzureADB2COptions AzureADB2COptions)
+   at Microsoft.AspNetCore.Authentication.AzureADB2C.UI.AzureADB2COpenIdConnectOptionsConfiguration.Configure(String name, OpenIdConnectOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass11_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at IdentityServer4.Hosting.FederatedSignOut.FederatedSignoutAuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:49:11.132 +01:00 [INF] Starting host...
+2020-01-08 15:49:22.455 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:49:22.554 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:49:22.554 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:49:22.554 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:49:22.554 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:49:22.554 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:49:22.554 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:49:22.751 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:49:22.752 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:49:22.752 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:49:22.752 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:49:22.752 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:49:22.752 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:49:22.752 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:49:33.654 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:49:36.487 +01:00 [INF] AuthenticationScheme: AzureADB2COpenID was challenged.
+2020-01-08 15:50:55.395 +01:00 [INF] Starting host...
+2020-01-08 15:50:56.492 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:50:56.593 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:50:56.593 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:50:56.593 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:50:56.593 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:50:56.593 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:50:56.593 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:50:56.794 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:50:56.795 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:50:56.795 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:50:56.795 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:50:56.795 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:50:56.795 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:50:56.795 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:50:58.571 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:51:00.424 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:51:53.245 +01:00 [INF] Starting host...
+2020-01-08 15:51:54.338 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:51:54.437 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:51:54.437 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:51:54.437 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:51:54.437 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:51:54.437 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:51:54.437 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:51:54.637 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:51:54.638 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:51:54.638 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:51:54.638 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:51:54.638 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:51:54.638 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:51:54.638 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:51:56.516 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:51:58.156 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:53:02.520 +01:00 [INF] Starting host...
+2020-01-08 15:53:03.625 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:53:03.725 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:53:03.725 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:53:03.726 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:53:03.726 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:53:03.726 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:53:03.726 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:53:03.930 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:53:03.931 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:53:03.931 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:53:03.931 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:53:03.931 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:53:03.931 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:53:03.931 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:53:06.144 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:53:07.913 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:53:27.315 +01:00 [INF] Starting host...
+2020-01-08 15:53:28.394 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:53:28.492 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:53:28.492 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:53:28.492 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:53:28.492 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:53:28.492 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:53:28.492 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:53:28.688 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:53:28.689 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:53:28.690 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:53:28.690 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:53:28.690 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:53:28.690 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:53:28.690 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:53:30.421 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:53:31.871 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:53:59.771 +01:00 [INF] Starting host...
+2020-01-08 15:54:00.859 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:54:00.957 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:54:00.957 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:54:00.957 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:54:00.957 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:54:00.957 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:54:00.957 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:54:01.157 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:54:01.158 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:54:01.158 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:54:01.158 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:54:01.158 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:54:01.158 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:54:01.158 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:54:02.701 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:54:04.290 +01:00 [INF] AuthenticationScheme: AzureADOpenID was challenged.
+2020-01-08 15:54:08.416 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:54:54.758 +01:00 [INF] Starting host...
+2020-01-08 15:54:55.579 +01:00 [FTL] Host terminated unexpectedly.
+System.ArgumentException: Your Okta domain should not contain -admin. Current value: https://dev-189840-admin.oktapreview.com. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain (Parameter 'OktaDomain')
+   at Okta.AspNet.Abstractions.OktaWebOptionsValidator`1.Validate(OktaWebOptions options)
+   at Okta.AspNetCore.OktaAuthenticationOptionsExtensions.AddOktaMvc(AuthenticationBuilder builder, OktaMvcOptions options)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Startup.cs:line 60
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\06. IdentityServer4 External Providers\src\IdentityServer\Program.cs:line 38
+2020-01-08 15:55:07.400 +01:00 [INF] Starting host...
+2020-01-08 15:55:08.498 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:55:08.600 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:55:08.600 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:55:08.600 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:55:08.601 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:55:08.601 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:55:08.601 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:55:08.810 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:55:08.811 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:55:08.811 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:55:08.811 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:55:08.811 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:55:08.811 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:55:08.811 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:55:10.775 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:55:12.575 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:57:36.873 +01:00 [INF] Starting host...
+2020-01-08 15:57:37.996 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 15:57:38.095 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 15:57:38.095 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 15:57:38.095 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 15:57:38.095 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 15:57:38.095 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 15:57:38.095 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 15:57:38.291 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 15:57:38.292 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 15:57:38.292 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 15:57:38.292 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 15:57:38.292 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 15:57:38.292 +01:00 [DBG] Error Url: /home/error
+2020-01-08 15:57:38.292 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-08 15:57:40.007 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-08 15:57:42.128 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 15:57:46.979 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-08 16:06:28.356 +01:00 [INF] Starting host...
+2020-01-08 16:06:29.363 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-08 16:06:29.462 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-08 16:06:29.462 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-08 16:06:29.462 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-08 16:06:29.462 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-08 16:06:29.463 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-08 16:06:29.463 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-08 16:06:29.662 +01:00 [DBG] Login Url: /Account/Login
+2020-01-08 16:06:29.663 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-08 16:06:29.663 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-08 16:06:29.663 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-08 16:06:29.663 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-08 16:06:29.663 +01:00 [DBG] Error Url: /home/error
+2020-01-08 16:06:29.663 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:45:26.546 +01:00 [INF] Starting host...
+2020-01-09 10:45:29.403 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:45:29.600 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:45:29.601 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:45:29.601 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:45:29.601 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:45:29.601 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:45:29.601 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:47:00.315 +01:00 [INF] Starting host...
+2020-01-09 10:47:01.387 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:47:01.488 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:47:01.488 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:47:01.488 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:47:01.488 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:47:01.488 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:47:01.488 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:48:22.241 +01:00 [INF] Starting host...
+2020-01-09 10:48:23.345 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:48:23.445 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:48:23.445 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:48:23.445 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:48:23.445 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:48:23.445 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:48:23.445 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:48:23.825 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:48:23.826 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:48:23.826 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:48:23.826 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:48:23.826 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:48:23.826 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:48:23.826 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:48:29.820 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 10:48:38.574 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 10:48:40.016 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 10:48:40.017 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 10:48:40.017 +01:00 [DBG] Adding auth_time claim with value: 1578563320
+2020-01-09 10:48:40.023 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 10:48:40.033 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"8000007d-0005-fc00-b63f-84710c7967bb","TimeStamp":"2020-01-09T09:48:40.0000000Z","ProcessId":19952,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 10:48:40.107 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 10:49:18.975 +01:00 [INF] Starting host...
+2020-01-09 10:49:20.058 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:49:20.155 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:49:20.155 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:49:20.155 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:49:20.155 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:49:20.155 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:49:20.155 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:49:20.351 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:49:20.352 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:49:20.352 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:49:20.352 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:49:20.352 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:49:20.352 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:49:20.352 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:49:23.707 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 10:49:34.493 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 10:49:35.733 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 10:49:35.734 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 10:49:35.734 +01:00 [DBG] Adding auth_time claim with value: 1578563375
+2020-01-09 10:49:35.739 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 10:49:35.748 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000039-0003-f900-b63f-84710c7967bb","TimeStamp":"2020-01-09T09:49:35.0000000Z","ProcessId":16524,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 10:49:35.821 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 10:50:20.000 +01:00 [INF] Starting host...
+2020-01-09 10:50:21.132 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:50:21.230 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:50:21.230 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:50:21.230 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:50:21.230 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:50:21.230 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:50:21.230 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:50:21.430 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:50:21.431 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:50:21.431 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:50:21.431 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:50:21.431 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:50:21.431 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:50:21.431 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:50:23.435 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 10:50:33.078 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 10:50:34.313 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 10:50:34.313 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 10:50:34.314 +01:00 [DBG] Adding auth_time claim with value: 1578563434
+2020-01-09 10:50:34.319 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 10:50:34.328 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000030-0004-fd00-b63f-84710c7967bb","TimeStamp":"2020-01-09T09:50:34.0000000Z","ProcessId":7388,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 10:50:34.403 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 10:53:09.031 +01:00 [INF] Starting host...
+2020-01-09 10:53:10.114 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:53:10.212 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:53:10.212 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:53:10.212 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:53:10.212 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:53:10.212 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:53:10.212 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:53:10.406 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:53:10.407 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:53:10.407 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:53:10.407 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:53:10.407 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:53:10.407 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:53:10.407 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:53:13.076 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 10:53:22.094 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 10:53:23.324 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 10:53:23.325 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 10:53:23.325 +01:00 [DBG] Adding auth_time claim with value: 1578563603
+2020-01-09 10:53:23.330 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 10:53:23.339 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000004-0003-f700-b63f-84710c7967bb","TimeStamp":"2020-01-09T09:53:23.0000000Z","ProcessId":20548,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 10:53:23.413 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 10:56:45.273 +01:00 [INF] Starting host...
+2020-01-09 10:56:46.366 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:56:46.462 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:56:46.462 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:56:46.462 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:56:46.462 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:56:46.462 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:56:46.462 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:56:46.657 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:56:46.658 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:56:46.659 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:56:46.659 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:56:46.659 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:56:46.659 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:56:46.659 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:59:26.586 +01:00 [INF] Starting host...
+2020-01-09 10:59:26.912 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:59:26.984 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:59:26.984 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:59:26.984 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:59:26.985 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:59:26.985 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:59:26.985 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:59:27.090 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:59:27.091 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:59:27.091 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:59:27.091 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:59:27.091 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:59:27.091 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:59:27.091 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 10:59:51.617 +01:00 [INF] Starting host...
+2020-01-09 10:59:51.945 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 10:59:52.017 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 10:59:52.017 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 10:59:52.017 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 10:59:52.017 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 10:59:52.017 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 10:59:52.017 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 10:59:52.124 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 10:59:52.125 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 10:59:52.125 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 10:59:52.125 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 10:59:52.125 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 10:59:52.125 +01:00 [DBG] Error Url: /home/error
+2020-01-09 10:59:52.125 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 11:01:28.366 +01:00 [INF] Starting host...
+2020-01-09 11:01:29.456 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 11:01:29.555 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 11:01:29.555 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 11:01:29.555 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 11:01:29.555 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 11:01:29.555 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 11:01:29.555 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 11:01:29.758 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 11:01:29.759 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 11:01:29.759 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 11:01:29.759 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 11:01:29.759 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 11:01:29.759 +01:00 [DBG] Error Url: /home/error
+2020-01-09 11:01:29.759 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 11:01:32.449 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 11:01:42.459 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:01:43.701 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:01:43.702 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:01:43.702 +01:00 [DBG] Adding auth_time claim with value: 1578564103
+2020-01-09 11:01:43.708 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:01:43.717 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000030-0004-f500-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:01:43.0000000Z","ProcessId":20944,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 11:01:43.789 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 11:03:25.897 +01:00 [INF] Starting host...
+2020-01-09 11:03:26.989 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 11:03:27.090 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 11:03:27.090 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 11:03:27.090 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 11:03:27.090 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 11:03:27.090 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 11:03:27.090 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 11:03:27.284 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 11:03:27.285 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 11:03:27.285 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 11:03:27.285 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 11:03:27.285 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 11:03:27.285 +01:00 [DBG] Error Url: /home/error
+2020-01-09 11:03:27.285 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 11:38:47.347 +01:00 [INF] Starting host...
+2020-01-09 11:38:48.441 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 11:38:48.541 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 11:38:48.541 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 11:38:48.541 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 11:38:48.541 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 11:38:48.541 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 11:38:48.541 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 11:38:48.691 +01:00 [WRN] Failed to determine the https port for redirect.
+2020-01-09 11:38:48.770 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 11:38:48.770 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 11:38:48.770 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 11:38:48.770 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 11:38:48.770 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 11:38:48.770 +01:00 [DBG] Error Url: /home/error
+2020-01-09 11:38:48.770 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 11:38:51.859 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 11:39:00.385 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:39:01.632 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:39:01.633 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:39:01.633 +01:00 [DBG] Adding auth_time claim with value: 1578566341
+2020-01-09 11:39:01.639 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:39:01.648 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000070-0003-fb00-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:39:01.0000000Z","ProcessId":11524,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 11:39:01.722 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 11:39:46.650 +01:00 [INF] Starting host...
+2020-01-09 11:39:47.730 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 11:39:47.828 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 11:39:47.828 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 11:39:47.828 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 11:39:47.828 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 11:39:47.828 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 11:39:47.828 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 11:39:47.976 +01:00 [WRN] Failed to determine the https port for redirect.
+2020-01-09 11:39:48.054 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 11:39:48.054 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 11:39:48.054 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 11:39:48.054 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 11:39:48.054 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 11:39:48.054 +01:00 [DBG] Error Url: /home/error
+2020-01-09 11:39:48.054 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 11:39:52.505 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 11:40:04.937 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:40:06.178 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:40:06.179 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:40:06.179 +01:00 [DBG] Adding auth_time claim with value: 1578566406
+2020-01-09 11:40:06.184 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:40:06.193 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000036-0004-f500-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:40:06.0000000Z","ProcessId":10620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 11:40:06.265 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 11:40:18.839 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Section 'Scripts' is already defined.
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.DefineSection(String name, RenderAsyncDelegate section)
+   at AspNetCore.Areas_Identity_Pages_Account_Manage_EnableAuthenticator.ExecuteAsync() in C:\Users\Dev\source\repos\IdentityServer4Demos.NetCore3.1\07. IdentityServer4 MFA – TOTP\src\IdentityServer\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml:line 28
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-01-09 11:41:20.081 +01:00 [INF] Starting host...
+2020-01-09 11:41:21.179 +01:00 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-01-09 11:41:21.277 +01:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-01-09 11:41:21.277 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-01-09 11:41:21.277 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-01-09 11:41:21.277 +01:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-01-09 11:41:21.277 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-01-09 11:41:21.277 +01:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-01-09 11:41:21.421 +01:00 [WRN] Failed to determine the https port for redirect.
+2020-01-09 11:41:21.498 +01:00 [DBG] Login Url: /Account/Login
+2020-01-09 11:41:21.498 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-01-09 11:41:21.498 +01:00 [DBG] Logout Url: /Account/Logout
+2020-01-09 11:41:21.498 +01:00 [DBG] ConsentUrl Url: /consent
+2020-01-09 11:41:21.498 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-01-09 11:41:21.498 +01:00 [DBG] Error Url: /home/error
+2020-01-09 11:41:21.498 +01:00 [DBG] Error Id Parameter: errorId
+2020-01-09 11:41:24.745 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 11:41:32.129 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:41:33.362 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:41:33.363 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:41:33.363 +01:00 [DBG] Adding auth_time claim with value: 1578566493
+2020-01-09 11:41:33.369 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:41:33.378 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"8000002a-0000-fb00-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:41:33.0000000Z","ProcessId":18736,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 11:41:33.451 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 11:42:50.725 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:43:00.949 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:43:18.276 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:43:18.288 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-01-09 11:43:18.289 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-01-09 11:43:18.289 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-01-09 11:43:18.290 +01:00 [INF] {"SubjectId":"1","DisplayName":"Alice Smith","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"8000009a-0005-fc00-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:43:18.0000000Z","ProcessId":18736,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-01-09 11:43:20.850 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 11:43:27.641 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:43:27.678 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:43:27.678 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:43:27.678 +01:00 [DBG] Adding auth_time claim with value: 1578566607
+2020-01-09 11:43:27.678 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:43:27.679 +01:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"8000003a-0000-fb00-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:43:27.0000000Z","ProcessId":18736,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-01-09 11:43:27.685 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 11:43:50.406 +01:00 [INF] User with ID '1' has reset their authentication app key.
+2020-01-09 11:43:50.410 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:43:50.410 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:43:50.410 +01:00 [DBG] Adding auth_time claim with value: 1578566630
+2020-01-09 11:43:50.411 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:44:05.353 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:44:27.863 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:45:11.043 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:21.525 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:29.553 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:36.336 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:39.484 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:40.192 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:42.568 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:44.334 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:47.035 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:47.774 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:48.486 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:49.091 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:47:49.725 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:48:04.993 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:48:08.269 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:48:10.887 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:48:49.989 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:49:06.150 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:49:45.986 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:49:52.865 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:49:57.490 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:50:03.012 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:50:12.100 +01:00 [DBG] 0 persisted grants found for 1
+2020-01-09 11:51:21.151 +01:00 [INF] User with ID '1' has reset their authentication app key.
+2020-01-09 11:51:21.155 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:51:21.155 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:51:21.155 +01:00 [DBG] Adding auth_time claim with value: 1578567081
+2020-01-09 11:51:21.155 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:51:47.130 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:52:02.038 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:52:57.235 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:52:59.429 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:53:00.125 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:53:00.837 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:53:27.632 +01:00 [WRN] VerifyTwoFactorTokenAsync() failed for user 1.
+2020-01-09 11:54:33.184 +01:00 [INF] User with ID '1' has reset their authentication app key.
+2020-01-09 11:54:33.189 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:54:33.189 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:54:33.189 +01:00 [DBG] Adding auth_time claim with value: 1578567273
+2020-01-09 11:54:33.190 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:55:00.110 +01:00 [INF] User with ID '1' has enabled 2FA with an authenticator app.
+2020-01-09 11:55:10.297 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:55:10.298 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-01-09 11:55:10.299 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-01-09 11:55:10.299 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-01-09 11:55:10.299 +01:00 [INF] {"SubjectId":"1","DisplayName":"Alice Smith","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"800000ba-0005-fd00-b63f-84710c7967bb","TimeStamp":"2020-01-09T10:55:10.0000000Z","ProcessId":18736,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-01-09 11:55:12.521 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-01-09 11:55:21.144 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-01-09 11:55:21.168 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed in.
+2020-01-09 11:55:30.089 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-01-09 11:55:30.092 +01:00 [DBG] Augmenting SignInContext
+2020-01-09 11:55:30.092 +01:00 [DBG] Adding idp claim with value: local
+2020-01-09 11:55:30.092 +01:00 [DBG] Adding auth_time claim with value: 1578567330
+2020-01-09 11:55:30.092 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-01-09 11:55:30.093 +01:00 [INF] User with ID '1' logged in with 2fa.
+2020-01-09 11:55:30.098 +01:00 [DBG] 0 persisted grants found for 1
