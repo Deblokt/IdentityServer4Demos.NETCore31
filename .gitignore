@@ -348,3 +348,15 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignore log files
+/01. IdentityServer4 Quickstart/src/IdentityServer/identityserver4_log.txt
+/02. IdentityServer4 EntityFramework/src/IdentityServer/identityserver4_log.txt
+/03. IdentityServer4 EF With PostgreSQL/src/IdentityServer/identityserver4_log.txt
+/04. PART-1 IdentityServer4 ASP.NET Core Identity/src/IdentityServer/identityserver4_log.txt
+/04. PART-2 IdentityServer4 ASP.NET Core Identity/src/IdentityServer/identityserver4_log.txt
+/04. PART-3 IdentityServer4 ASP.NET Core Identity/src/IdentityServer/identityserver4_log.txt
+/05. IdentityServer4 Adding custom properties to User/src/IdentityServer/identityserver4_log.txt
+/06. IdentityServer4 External Providers/src/IdentityServer/identityserver4_log.txt
+/07. IdentityServer4 MFA – TOTP/src/IdentityServer/identityserver4_log.txt
+/08. IdentityServer4 MFA – FIDO2 (YubiKey 5)/src/IdentityServer/identityserver4_log.txt

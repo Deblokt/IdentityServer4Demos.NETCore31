@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Reflection;
-using IdentityServer4.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -16,14 +15,10 @@ using Microsoft.AspNetCore.Identity;
 using IdentityServer.Data;
 using IdentityServer4.Services;
 using IdentityServer.Services;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Okta.AspNetCore;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using IdentityServer.Providers;
+using System.Threading.Tasks;
 
 namespace IdentityServer
 {
@@ -51,12 +46,6 @@ namespace IdentityServer
                     });
             /*https://docs.microsoft.com/en-us/aspnet/core/security/authorization/razor-pages-authorization?view=aspnetcore-3.1 */
 
-
-            //var builder = services.AddIdentityServer()
-            //    .AddInMemoryIdentityResources(Config.Ids)
-            //    .AddInMemoryApiResources(Config.Apis)
-            //    .AddInMemoryClients(Config.Clients);
-
             services.AddDbContext<IdentityDbContext>(options => options.UseSqlServer(connectionString, sql => sql.MigrationsAssembly(migrationsAssembly)));
 
             services.AddScoped<Fido2Storage>();
@@ -69,26 +58,37 @@ namespace IdentityServer
                 .AddEntityFrameworkStores<IdentityDbContext>()
                 .AddDefaultTokenProviders()
                 .AddTokenProvider<Fido2TokenProvider>("FIDO2");
-                
-
+            
             services.AddAuthentication()
-                .AddAzureAD(options => Configuration.Bind("AzureAd", options))
-                .AddOktaMvc(new OktaMvcOptions
-                 {
-                     // Replace these values with your Okta configuration
-                     OktaDomain = Configuration.GetSection("Okta").GetValue<string>("Authority"),
-                     ClientId = Configuration.GetSection("Okta").GetValue<string>("ClientId"),
-                     Scope = new List<string> { "openid", "profile", "email" },
-                     CallbackPath = Configuration.GetSection("Okta").GetValue<string>("CallbackPath"),
-                     ClientSecret = Configuration.GetSection("Okta").GetValue<string>("Secret")
-                 });
-
-            services.Configure<AzureADOptions>(Configuration.GetSection("AzureAd"));
-
+                .AddOpenIdConnect("azuread", "Azure AD", options => Configuration.Bind("AzureAd", options))
+                .AddOpenIdConnect("okta", "Okta", options => Configuration.Bind("Okta", options));
+            services.Configure<OpenIdConnectOptions>("azuread", options =>
+            {
+                options.Scope.Add("openid");
+                options.Scope.Add("profile");
+                options.Events = new OpenIdConnectEvents()
+                {
+                    OnRedirectToIdentityProviderForSignOut = context =>
+                    {
+                        context.HandleResponse();
+                        context.Response.Redirect("/Account/Logout");
+                        return Task.FromResult(0);
+                    }
+                };
+            });
             services.Configure<OpenIdConnectOptions>("okta", options =>
             {
                 options.Scope.Add("openid");
                 options.Scope.Add("profile");
+                options.Events = new OpenIdConnectEvents()
+                {
+                    OnRedirectToIdentityProviderForSignOut = context =>
+                    {
+                        context.HandleResponse();
+                        context.Response.Redirect("/Account/Logout");
+                        return Task.FromResult(0);
+                    }
+                };
             });
 
             var builder = services.AddIdentityServer(options =>
