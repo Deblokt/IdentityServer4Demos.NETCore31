@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117134936_InitialConfigurationMigration.cs" />
+    <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117134936_InitialConfigurationMigration.Designer.cs" />
+  </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="IdentityServer4" Version="3.1.0" />

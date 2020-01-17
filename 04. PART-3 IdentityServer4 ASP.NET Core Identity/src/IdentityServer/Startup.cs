@@ -35,12 +35,9 @@ namespace IdentityServer
             // uncomment, if you want to add an MVC-based UI
             services.AddControllersWithViews();
 
-            //var builder = services.AddIdentityServer()
-            //    .AddInMemoryIdentityResources(Config.Ids)
-            //    .AddInMemoryApiResources(Config.Apis)
-            //    .AddInMemoryClients(Config.Clients);
-
             services.AddDbContext<IdentityDbContext>(options => options.UseSqlServer(connectionString, sql => sql.MigrationsAssembly(migrationsAssembly)));
+            services.AddDbContext<Data.ConfigurationDbContext>(options => options.UseSqlServer(connectionString, sql => sql.MigrationsAssembly(migrationsAssembly)));
+
             services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
                 options.SignIn.RequireConfirmedEmail = true;

@@ -4,14 +4,16 @@ using IdentityServer.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
 {
     [DbContext(typeof(ConfigurationDbContext))]
-    partial class ConfigurationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200117135803_SeedConfigurationMigration")]
+    partial class SeedConfigurationMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -65,7 +67,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 816, DateTimeKind.Utc).AddTicks(3783),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 394, DateTimeKind.Utc).AddTicks(3115),
                             DisplayName = "My Web API",
                             Enabled = true,
                             Name = "web_api",
@@ -402,7 +404,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                             BackChannelLogoutSessionRequired = true,
                             ClientClaimsPrefix = "client_",
                             ClientId = "client",
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 818, DateTimeKind.Utc).AddTicks(4624),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 396, DateTimeKind.Utc).AddTicks(8830),
                             DeviceCodeLifetime = 300,
                             EnableLocalLogin = true,
                             Enabled = true,
@@ -435,7 +437,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                             BackChannelLogoutSessionRequired = true,
                             ClientClaimsPrefix = "client_",
                             ClientId = "ro.client",
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 818, DateTimeKind.Utc).AddTicks(8256),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 397, DateTimeKind.Utc).AddTicks(3121),
                             DeviceCodeLifetime = 300,
                             EnableLocalLogin = true,
                             Enabled = true,
@@ -469,7 +471,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                             ClientClaimsPrefix = "client_",
                             ClientId = "mvc",
                             ClientName = "MVC Client",
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 818, DateTimeKind.Utc).AddTicks(8262),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 397, DateTimeKind.Utc).AddTicks(3134),
                             DeviceCodeLifetime = 300,
                             EnableLocalLogin = true,
                             Enabled = true,
@@ -503,7 +505,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                             ClientClaimsPrefix = "client_",
                             ClientId = "js",
                             ClientName = "JavaScript client",
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 818, DateTimeKind.Utc).AddTicks(8263),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 397, DateTimeKind.Utc).AddTicks(3136),
                             DeviceCodeLifetime = 300,
                             EnableLocalLogin = true,
                             Enabled = true,
@@ -861,7 +863,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                         {
                             Id = 1,
                             ClientId = 1,
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 819, DateTimeKind.Utc).AddTicks(1960),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 397, DateTimeKind.Utc).AddTicks(7183),
                             Type = "SharedSecret",
                             Value = "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols="
                         },
@@ -869,7 +871,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                         {
                             Id = 2,
                             ClientId = 2,
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 821, DateTimeKind.Utc).AddTicks(5157),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 400, DateTimeKind.Utc).AddTicks(4009),
                             Type = "SharedSecret",
                             Value = "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols="
                         },
@@ -877,7 +879,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                         {
                             Id = 3,
                             ClientId = 2,
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 821, DateTimeKind.Utc).AddTicks(5459),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 400, DateTimeKind.Utc).AddTicks(4380),
                             Type = "SharedSecret",
                             Value = "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols="
                         });
@@ -995,7 +997,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 818, DateTimeKind.Utc).AddTicks(1070),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 396, DateTimeKind.Utc).AddTicks(4812),
                             DisplayName = "Your user identifier",
                             Emphasize = false,
                             Enabled = true,
@@ -1007,7 +1009,7 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                         new
                         {
                             Id = 2,
-                            Created = new DateTime(2020, 1, 17, 13, 53, 45, 818, DateTimeKind.Utc).AddTicks(2078),
+                            Created = new DateTime(2020, 1, 17, 13, 58, 3, 396, DateTimeKind.Utc).AddTicks(5905),
                             Description = "Your user profile information (first name, last name, etc.)",
                             DisplayName = "User profile",
                             Emphasize = true,
