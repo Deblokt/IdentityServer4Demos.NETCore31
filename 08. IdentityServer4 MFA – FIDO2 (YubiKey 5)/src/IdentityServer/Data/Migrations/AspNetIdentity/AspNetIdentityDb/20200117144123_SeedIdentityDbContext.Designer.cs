@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
 {
     [DbContext(typeof(IdentityDbContext))]
-    [Migration("20200108102055_InitialIdentityDbMigration")]
-    partial class InitialIdentityDbMigration
+    [Migration("20200117144123_SeedIdentityDbContext")]
+    partial class SeedIdentityDbContext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,6 +38,12 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("EmployeeId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsEnabled")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")
@@ -84,6 +90,42 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "d0a35694-75ca-4311-9643-9da268c7afa2",
+                            Email = "AliceSmith@email.com",
+                            EmailConfirmed = true,
+                            IsEnabled = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ALICESMITH@EMAIL.COM",
+                            NormalizedUserName = "ALICE",
+                            PasswordHash = "AQAAAAEAACcQAAAAECn7ZlhsqAr80v4sx2JaC1nexo7eLHpJLJWPZf33UTdCnuVU+6oZlYP+hCjIdY0eGA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "41c9cd78-af8e-4322-bed2-3d24aab76c11",
+                            TwoFactorEnabled = false,
+                            UserName = "alice"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "5169d19a-8245-4b5e-8904-4b7467d3c66f",
+                            Email = "BobSmith@email.com",
+                            EmailConfirmed = true,
+                            IsEnabled = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "BOBSMITH@EMAIL.COM",
+                            NormalizedUserName = "BOB",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMzBspjI8hrajuA8TslkUgqTyv3LF2aS4yGTOj8t9BdrS6P5ZmIlEwI99Xz8hg7XzQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "e8e180ae-4120-4677-bfbd-b3f9859a322e",
+                            TwoFactorEnabled = false,
+                            UserName = "bob"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -159,6 +201,113 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                     b.HasIndex("UserId");
 
                     b.ToTable("AspNetUserClaims");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ClaimType = "name",
+                            ClaimValue = "Alice Smith",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ClaimType = "given_name",
+                            ClaimValue = "Alice",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ClaimType = "family_name",
+                            ClaimValue = "Smith",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ClaimType = "email",
+                            ClaimValue = "AliceSmith@email.com",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ClaimType = "website",
+                            ClaimValue = "http://alice.com",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            ClaimType = "name",
+                            ClaimValue = "Bob Smith",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            ClaimType = "given_name",
+                            ClaimValue = "Bob",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            ClaimType = "family_name",
+                            ClaimValue = "Smith",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            ClaimType = "email",
+                            ClaimValue = "BobSmith@email.com",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            ClaimType = "website",
+                            ClaimValue = "http://bob.com",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            ClaimType = "email_verified",
+                            ClaimValue = "True",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            ClaimType = "email_verified",
+                            ClaimValue = "True",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            ClaimType = "address",
+                            ClaimValue = "{ 'street_address': 'One Hacker Way', 'locality': 'Heidelberg', 'postal_code': 69118, 'country': 'Germany' }",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            ClaimType = "address",
+                            ClaimValue = "{ 'street_address': 'One Hacker Way', 'locality': 'Heidelberg', 'postal_code': 69118, 'country': 'Germany' }",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            ClaimType = "location",
+                            ClaimValue = "somewhere",
+                            UserId = "1"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>

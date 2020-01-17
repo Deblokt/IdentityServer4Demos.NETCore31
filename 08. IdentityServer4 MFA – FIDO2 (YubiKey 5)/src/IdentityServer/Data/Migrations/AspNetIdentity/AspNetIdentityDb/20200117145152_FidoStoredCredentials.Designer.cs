@@ -4,14 +4,16 @@ using IdentityServer.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
 {
     [DbContext(typeof(IdentityDbContext))]
-    partial class IdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200117145152_FidoStoredCredentials")]
+    partial class FidoStoredCredentials
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -94,16 +96,16 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9bf51674-22d5-489c-8840-b6b7e5c168ea",
+                            ConcurrencyStamp = "abf74388-9f15-4db8-ae76-03a5e1dec8ec",
                             Email = "AliceSmith@email.com",
                             EmailConfirmed = true,
                             IsEnabled = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ALICESMITH@EMAIL.COM",
                             NormalizedUserName = "ALICE",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI2ng2eTwVWp1oUlhUFiQjxPxFUPS1tqDTn1P4lL/nA3mCXDzuXyu3XuAaNdfaaX5w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFKxl9dFfppA3t28QnZkwveDhaZBllzcSGBwz8lzBiUXXgESlE2fpMJ6t0Gl+xUuPw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "13e1a5ea-5e35-4145-8dd4-e090d75cf684",
+                            SecurityStamp = "c0b266f0-f629-4109-b19f-e11cb5209cf2",
                             TwoFactorEnabled = false,
                             UserName = "alice"
                         },
@@ -111,19 +113,53 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "85d9f0e8-0ebf-4cb6-9591-0a590dc689fc",
+                            ConcurrencyStamp = "6b5e1390-6163-4afe-8695-0d6a68ea1b5e",
                             Email = "BobSmith@email.com",
                             EmailConfirmed = true,
                             IsEnabled = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "BOBSMITH@EMAIL.COM",
                             NormalizedUserName = "BOB",
-                            PasswordHash = "AQAAAAEAACcQAAAAENKBEy8L1HDu5r71QgePuhB8aFz1wTZjw8ttPNS+3gpAM+fbBn2xyoCIDeWEUQER0g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHSAZ2iv2OovcuAqWvykUGx8EjQ4tqQnoPJQz92pgav5tX44bDwVUiupcJoE6NQHJw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ae733bfd-6269-45e0-a870-9b5e3c8d1702",
+                            SecurityStamp = "9493d91d-d043-4790-b229-171537d82f7d",
                             TwoFactorEnabled = false,
                             UserName = "bob"
                         });
+                });
+
+            modelBuilder.Entity("IdentityServer.Models.FidoStoredCredential", b =>
+                {
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<Guid>("AaGuid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CredType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DescriptorJson")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("PublicKey")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<DateTime>("RegDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<long>("SignatureCounter")
+                        .HasColumnType("bigint");
+
+                    b.Property<byte[]>("UserHandle")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("UserId")
+                        .HasColumnType("varbinary(max)");
+
+                    b.HasKey("Username");
+
+                    b.ToTable("FidoStoredCredential");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

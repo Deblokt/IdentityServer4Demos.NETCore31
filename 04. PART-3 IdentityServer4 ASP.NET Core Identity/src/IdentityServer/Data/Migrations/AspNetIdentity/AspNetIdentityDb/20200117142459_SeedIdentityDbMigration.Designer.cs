@@ -4,14 +4,16 @@ using IdentityServer.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
 {
     [DbContext(typeof(IdentityDbContext))]
-    partial class IdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200117142459_SeedIdentityDbMigration")]
+    partial class SeedIdentityDbMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,12 +38,6 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("EmployeeId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsEnabled")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")
@@ -94,16 +90,15 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9bf51674-22d5-489c-8840-b6b7e5c168ea",
+                            ConcurrencyStamp = "ece841ac-6571-470c-ae02-a7d4646a9abc",
                             Email = "AliceSmith@email.com",
                             EmailConfirmed = true,
-                            IsEnabled = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ALICESMITH@EMAIL.COM",
                             NormalizedUserName = "ALICE",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI2ng2eTwVWp1oUlhUFiQjxPxFUPS1tqDTn1P4lL/nA3mCXDzuXyu3XuAaNdfaaX5w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECrZoOI6GgKSpHAEJq/Kz+Nd8biNKvdLh1Is5V8DHf8IM5VdATuhBdJK5sij8kbzNg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "13e1a5ea-5e35-4145-8dd4-e090d75cf684",
+                            SecurityStamp = "260275ce-0b71-49e8-9593-22462dd48db8",
                             TwoFactorEnabled = false,
                             UserName = "alice"
                         },
@@ -111,16 +106,15 @@ namespace IdentityServer.Data.Migrations.AspNetIdentity.AspNetIdentityDb
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "85d9f0e8-0ebf-4cb6-9591-0a590dc689fc",
+                            ConcurrencyStamp = "dd333c55-0654-4ebf-8a7e-8c2f7c364b9d",
                             Email = "BobSmith@email.com",
                             EmailConfirmed = true,
-                            IsEnabled = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "BOBSMITH@EMAIL.COM",
                             NormalizedUserName = "BOB",
-                            PasswordHash = "AQAAAAEAACcQAAAAENKBEy8L1HDu5r71QgePuhB8aFz1wTZjw8ttPNS+3gpAM+fbBn2xyoCIDeWEUQER0g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHOhZsj6roTNHOjTMGK4+lxIPpH2B1w+QzacVABEnTM3AMZ5MWOK745ngDDQmQ/03g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ae733bfd-6269-45e0-a870-9b5e3c8d1702",
+                            SecurityStamp = "31bd859c-5de3-4d1a-8a66-7457f52a8fb1",
                             TwoFactorEnabled = false,
                             UserName = "bob"
                         });

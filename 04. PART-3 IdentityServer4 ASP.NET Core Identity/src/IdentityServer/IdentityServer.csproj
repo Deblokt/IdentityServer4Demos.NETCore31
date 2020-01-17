@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Migrations\AspNetIdentity\AspNetIdentityDb\20200117142324_InitialIdentityDbMigration.cs" />
+    <Compile Remove="Data\Migrations\AspNetIdentity\AspNetIdentityDb\20200117142324_InitialIdentityDbMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\AspNetIdentity\AspNetIdentityDb\20200117142402_InitialIdentityDbMigration.cs" />
+    <Compile Remove="Data\Migrations\AspNetIdentity\AspNetIdentityDb\20200117142402_InitialIdentityDbMigration.Designer.cs" />
     <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117134936_InitialConfigurationMigration.cs" />
     <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117134936_InitialConfigurationMigration.Designer.cs" />
   </ItemGroup>
