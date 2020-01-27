@@ -10,17 +10,17 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
             migrationBuilder.InsertData(
                 table: "ApiResources",
                 columns: new[] { "Id", "Created", "Description", "DisplayName", "Enabled", "LastAccessed", "Name", "NonEditable", "Updated" },
-                values: new object[] { 1, new DateTime(2020, 1, 17, 13, 56, 50, 232, DateTimeKind.Utc).AddTicks(1476), null, "My Web API", true, null, "web_api", false, null });
+                values: new object[] { 1, new DateTime(2020, 1, 27, 9, 42, 1, 590, DateTimeKind.Utc).AddTicks(2313), null, "My Web API", true, null, "web_api", false, null });
 
             migrationBuilder.InsertData(
                 table: "Clients",
                 columns: new[] { "Id", "AbsoluteRefreshTokenLifetime", "AccessTokenLifetime", "AccessTokenType", "AllowAccessTokensViaBrowser", "AllowOfflineAccess", "AllowPlainTextPkce", "AllowRememberConsent", "AlwaysIncludeUserClaimsInIdToken", "AlwaysSendClientClaims", "AuthorizationCodeLifetime", "BackChannelLogoutSessionRequired", "BackChannelLogoutUri", "ClientClaimsPrefix", "ClientId", "ClientName", "ClientUri", "ConsentLifetime", "Created", "Description", "DeviceCodeLifetime", "EnableLocalLogin", "Enabled", "FrontChannelLogoutSessionRequired", "FrontChannelLogoutUri", "IdentityTokenLifetime", "IncludeJwtId", "LastAccessed", "LogoUri", "NonEditable", "PairWiseSubjectSalt", "ProtocolType", "RefreshTokenExpiration", "RefreshTokenUsage", "RequireClientSecret", "RequireConsent", "RequirePkce", "SlidingRefreshTokenLifetime", "UpdateAccessTokenClaimsOnRefresh", "Updated", "UserCodeType", "UserSsoLifetime" },
                 values: new object[,]
                 {
-                    { 1, 2592000, 3600, 0, false, false, false, true, false, false, 300, true, null, "client_", "client", null, null, null, new DateTime(2020, 1, 17, 13, 56, 50, 234, DateTimeKind.Utc).AddTicks(3678), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, true, true, false, 1296000, false, null, null, null },
-                    { 2, 2592000, 3600, 0, false, false, false, true, false, false, 300, true, null, "client_", "ro.client", null, null, null, new DateTime(2020, 1, 17, 13, 56, 50, 234, DateTimeKind.Utc).AddTicks(7525), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, true, true, false, 1296000, false, null, null, null },
-                    { 3, 2592000, 3600, 0, false, true, false, true, false, false, 300, true, null, "client_", "mvc", "MVC Client", null, null, new DateTime(2020, 1, 17, 13, 56, 50, 234, DateTimeKind.Utc).AddTicks(7534), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, true, true, false, 1296000, false, null, null, null },
-                    { 4, 2592000, 3600, 0, false, false, false, true, false, false, 300, true, null, "client_", "js", "JavaScript client", null, null, new DateTime(2020, 1, 17, 13, 56, 50, 234, DateTimeKind.Utc).AddTicks(7536), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, false, true, true, 1296000, false, null, null, null }
+                    { 1, 2592000, 3600, 0, false, false, false, true, false, false, 300, true, null, "client_", "client", null, null, null, new DateTime(2020, 1, 27, 9, 42, 1, 592, DateTimeKind.Utc).AddTicks(714), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, true, true, false, 1296000, false, null, null, null },
+                    { 2, 2592000, 3600, 0, false, false, false, true, false, false, 300, true, null, "client_", "ro.client", null, null, null, new DateTime(2020, 1, 27, 9, 42, 1, 592, DateTimeKind.Utc).AddTicks(4022), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, true, true, false, 1296000, false, null, null, null },
+                    { 3, 2592000, 3600, 0, false, true, false, true, false, false, 300, true, null, "client_", "mvc", "MVC Client", null, null, new DateTime(2020, 1, 27, 9, 42, 1, 592, DateTimeKind.Utc).AddTicks(4026), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, true, true, false, 1296000, false, null, null, null },
+                    { 4, 2592000, 3600, 0, false, false, false, true, false, false, 300, true, null, "client_", "js", "JavaScript client", null, null, new DateTime(2020, 1, 27, 9, 42, 1, 592, DateTimeKind.Utc).AddTicks(4028), null, 300, true, true, true, null, 300, false, null, null, false, null, "oidc", 1, 1, false, true, true, 1296000, false, null, null, null }
                 });
 
             migrationBuilder.InsertData(
@@ -28,8 +28,8 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                 columns: new[] { "Id", "Created", "Description", "DisplayName", "Emphasize", "Enabled", "Name", "NonEditable", "Required", "ShowInDiscoveryDocument", "Updated" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2020, 1, 17, 13, 56, 50, 233, DateTimeKind.Utc).AddTicks(9991), null, "Your user identifier", false, true, "openid", false, true, true, null },
-                    { 2, new DateTime(2020, 1, 17, 13, 56, 50, 234, DateTimeKind.Utc).AddTicks(1031), "Your user profile information (first name, last name, etc.)", "User profile", true, true, "profile", false, false, true, null }
+                    { 1, new DateTime(2020, 1, 27, 9, 42, 1, 591, DateTimeKind.Utc).AddTicks(7490), null, "Your user identifier", false, true, "openid", false, true, true, null },
+                    { 2, new DateTime(2020, 1, 27, 9, 42, 1, 591, DateTimeKind.Utc).AddTicks(8400), "Your user profile information (first name, last name, etc.)", "User profile", true, true, "profile", false, false, true, null }
                 });
 
             migrationBuilder.InsertData(
@@ -48,9 +48,9 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                 values: new object[,]
                 {
                     { 1, 1, "client_credentials" },
+                    { 4, 4, "authorization_code" },
                     { 2, 2, "password" },
-                    { 4, 3, "hybrid" },
-                    { 3, 4, "authorization_code" }
+                    { 3, 3, "hybrid" }
                 });
 
             migrationBuilder.InsertData(
@@ -67,8 +67,8 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                 columns: new[] { "Id", "ClientId", "RedirectUri" },
                 values: new object[,]
                 {
-                    { 2, 4, "http://localhost:5003/callback.html" },
-                    { 1, 3, "http://localhost:5002/signin-oidc" }
+                    { 1, 3, "http://localhost:5002/signin-oidc" },
+                    { 2, 4, "http://localhost:5003/callback.html" }
                 });
 
             migrationBuilder.InsertData(
@@ -76,14 +76,14 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                 columns: new[] { "Id", "ClientId", "Scope" },
                 values: new object[,]
                 {
-                    { 8, 4, "Deblokt_API" },
-                    { 4, 4, "openid" },
-                    { 2, 4, "profile" },
-                    { 7, 3, "Deblokt_API" },
-                    { 3, 3, "openid" },
+                    { 6, 2, "web_api" },
                     { 1, 3, "profile" },
-                    { 6, 2, "Deblokt_API" },
-                    { 5, 1, "Deblokt_API" }
+                    { 3, 3, "openid" },
+                    { 7, 3, "web_api" },
+                    { 2, 4, "profile" },
+                    { 8, 4, "web_api" },
+                    { 5, 1, "web_api" },
+                    { 4, 4, "openid" }
                 });
 
             migrationBuilder.InsertData(
@@ -91,9 +91,9 @@ namespace IdentityServer.Data.Migrations.IdentityServer.ConfigurationDb
                 columns: new[] { "Id", "ClientId", "Created", "Description", "Expiration", "Type", "Value" },
                 values: new object[,]
                 {
-                    { 3, 2, new DateTime(2020, 1, 17, 13, 56, 50, 237, DateTimeKind.Utc).AddTicks(8165), null, null, "SharedSecret", "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" },
-                    { 2, 2, new DateTime(2020, 1, 17, 13, 56, 50, 237, DateTimeKind.Utc).AddTicks(7859), null, null, "SharedSecret", "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" },
-                    { 1, 1, new DateTime(2020, 1, 17, 13, 56, 50, 235, DateTimeKind.Utc).AddTicks(1192), null, null, "SharedSecret", "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" }
+                    { 3, 3, new DateTime(2020, 1, 27, 9, 42, 1, 594, DateTimeKind.Utc).AddTicks(7257), null, null, "SharedSecret", "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" },
+                    { 2, 2, new DateTime(2020, 1, 27, 9, 42, 1, 594, DateTimeKind.Utc).AddTicks(6993), null, null, "SharedSecret", "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" },
+                    { 1, 1, new DateTime(2020, 1, 27, 9, 42, 1, 592, DateTimeKind.Utc).AddTicks(7212), null, null, "SharedSecret", "K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols=" }
                 });
 
             migrationBuilder.InsertData(

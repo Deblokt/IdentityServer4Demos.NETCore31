@@ -11,6 +11,8 @@
     <Compile Remove="Data\Migrations\AspNetIdentity\AspNetIdentityDb\20200117142402_InitialIdentityDbMigration.Designer.cs" />
     <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117134936_InitialConfigurationMigration.cs" />
     <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117134936_InitialConfigurationMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117135150_SeedConfigurationMigration.cs" />
+    <Compile Remove="Data\Migrations\IdentityServer\ConfigurationDb\20200117135150_SeedConfigurationMigration.Designer.cs" />
   </ItemGroup>
   
   <ItemGroup>

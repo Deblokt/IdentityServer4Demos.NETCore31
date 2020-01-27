@@ -209,14 +209,14 @@ namespace IdentityServer.Data
                     new ClientGrantType
                     {
                         Id = 3,
-                        GrantType = "authorization_code",
-                        ClientId = 4
+                        GrantType = "hybrid",
+                        ClientId = 3
                     },
                     new ClientGrantType
                     {
                         Id = 4,
-                        GrantType = "hybrid",
-                        ClientId = 3
+                        GrantType = "authorization_code",
+                        ClientId = 4
                     });
 
             builder.Entity<ClientScope>()
@@ -248,28 +248,28 @@ namespace IdentityServer.Data
                     new ClientScope
                     {
                         Id = 5,
-                        Scope = "Deblokt_API",
+                        Scope = "web_api",
                         ClientId = 1
                     }
                     ,
                     new ClientScope
                     {
                         Id = 6,
-                        Scope = "Deblokt_API",
+                        Scope = "web_api",
                         ClientId = 2
                     }
                     ,
                     new ClientScope
                     {
                         Id = 7,
-                        Scope = "Deblokt_API",
+                        Scope = "web_api",
                         ClientId = 3
                     }
                     ,
                     new ClientScope
                     {
                         Id = 8,
-                        Scope = "Deblokt_API",
+                        Scope = "web_api",
                         ClientId = 4
                     });
 
@@ -294,7 +294,7 @@ namespace IdentityServer.Data
                          Id = 3,
                          Value = "secret".ToSha256(),
                          Type = "SharedSecret",
-                         ClientId = 2
+                         ClientId = 3
                      });
 
             builder.Entity<ClientPostLogoutRedirectUri>()
